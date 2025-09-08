@@ -1,0 +1,8 @@
+torch
+torchvision
+fastapi
+uvicorn
+gradio
+pillow
+numpy
+scikit-learn
