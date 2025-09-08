@@ -82,7 +82,7 @@ curl -X POST "http://127.0.0.1:8000/predict" -F "file=@path/to/image.jpg"
 ## **📦 Model**
 
 * Pretrained on Fashion-MNIST
-* Hosted on Hugging Face Hub: `[![Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://huggingface.co/alexrmb/fashion-classifier-model)`
+* Hosted on Hugging Face Hub: [![Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://huggingface.co/alexrmb/fashion-classifier-model)
 * Loaded dynamically at runtime, no large files stored in repo
 
 ---
@@ -105,6 +105,6 @@ This project is licensed under the **MIT License** – see [LICENSE](LICENSE) fo
 
 ## **📌 Demo / Links**
 
-* **Hugging Face Spaces Demo:** `[![Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://huggingface.co/spaces/alexrmb/Clothing-Classifier-API)`
+* **Hugging Face Spaces Demo:** [![Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://huggingface.co/spaces/alexrmb/Clothing-Classifier-API)
 
 ---
