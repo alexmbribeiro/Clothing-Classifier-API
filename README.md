@@ -4,6 +4,8 @@
 
 A PyTorch-based clothing image classifier served via **FastAPI** and **Gradio**, capable of predicting Fashion-MNIST categories. This project demonstrates model training, deployment, and web-based interaction.
 
+[![Model](https://img.shields.io/badge/Hugging%20Face-Model-blue)](https://huggingface.co/alexrmb/fashion-classifier-model)
+[![Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://huggingface.co/spaces/alexrmb/Clothing-Classifier-API)
 ---
 
 ## **🚀 Features**
@@ -82,7 +84,7 @@ curl -X POST "http://127.0.0.1:8000/predict" -F "file=@path/to/image.jpg"
 ## **📦 Model**
 
 * Pretrained on Fashion-MNIST
-* Hosted on Hugging Face Hub: [![Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://huggingface.co/alexrmb/fashion-classifier-model)
+* Hosted on Hugging Face Hub: [![Model](https://img.shields.io/badge/Hugging%20Face-Model-blue)](https://huggingface.co/alexrmb/fashion-classifier-model)
 * Loaded dynamically at runtime, no large files stored in repo
 
 ---
