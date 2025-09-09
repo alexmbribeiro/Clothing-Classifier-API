@@ -81,11 +81,19 @@ curl -X POST "http://127.0.0.1:8000/predict" -F "file=@path/to/image.jpg"
 
 ---
 
-## **📦 Model**
+## 🧠 Model Training
 
-* Pretrained on Fashion-MNIST
-* Hosted on Hugging Face Hub: [![Model](https://img.shields.io/badge/Hugging%20Face-Model-blue)](https://huggingface.co/alexrmb/fashion-classifier-model)
-* Loaded dynamically at runtime, no large files stored in repo
+* The model used in this project was trained from scratch on the Fashion-MNIST dataset.  
+* Training script: [fashion_model_train.py](data/fashion_model_train.py)
+
+* Key details:
+  - Framework: PyTorch
+  - Architecture: Simple CNN (2 convolutional layers + 2 fully connected layers)
+  - Optimizer: Adam (lr=0.001)
+  - Loss: CrossEntropyLoss
+  - Training sample: 10,000 images (for faster experimentation)
+
+* After training, the model weights were exported and uploaded to Hugging Face Hub for deployment.
 
 ---
 
