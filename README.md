@@ -83,14 +83,14 @@ curl -X POST "http://127.0.0.1:8000/predict" -F "file=@path/to/image.jpg"
 
 ## 🧠 Model Training
 
-* The model used in this project was trained from scratch on the Fashion-MNIST dataset.  
+* The model used in this project was fine-tuned from a ResNet architecture on the Fashion-MNIST dataset.  
 * Training script: [fashion_model_train.py](data/fashion_model_train.py)
 
 * Key details:
-  - Framework: PyTorch
-  - Architecture: Simple CNN (2 convolutional layers + 2 fully connected layers)
-  - Optimizer: Adam (lr=0.001)
-  - Loss: CrossEntropyLoss
+  - Framework: **PyTorch**
+  - Architecture: **ResNet** (pretrained backbone, fine-tuned for 10 classes)
+  - Optimizer: **Adam** (lr=0.001)
+  - Loss: **CrossEntropyLoss**
   - Training sample: 10,000 images (for faster experimentation)
 
 * After training, the model weights were exported and uploaded to Hugging Face Hub for deployment.
